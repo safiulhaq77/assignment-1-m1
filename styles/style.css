@@ -11,6 +11,9 @@
   }
 
 /* banner section */
+html{
+    scroll-behavior: smooth;
+}
 #banner{
     background-image: url('../assets/Hero-bg.png');
     width: 100%;
@@ -335,7 +338,18 @@
     cursor: pointer;
 }
 
-
+#footer{
+    background-color: #00B2FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+}
+.footer-img{
+    padding: 20px;
+}
 
 
 
