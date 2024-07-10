@@ -229,17 +229,70 @@
     text-align: center;
     font-size: 50px;
     color: #0D1321;
+    padding-top: 40px;
 }
 .ins-about{
     text-align: center;
     font-size: 20px;
     color: #0D1321;
+    padding-bottom: 40px;
 }
 .ins-video{
     display: flex;
     justify-content: center;
 }
 
-
+/* 3cards styles */
+.target{
+    margin: 90px;
+    padding: 60px;
+}
+.my-target{
+    text-align: center;
+}
+.my-target-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.my-target-about{
+    font-size: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    padding-top: 60px;
+}
+.card-1{
+    background-color: #EBEBEB;
+    padding: 40px;
+    border-radius: 20px;
+}
+.card-2{
+    background-color: #0D1321;
+    padding: 40px;
+    border-radius: 20px;
+}
+.card-3{
+    background-color: #EBEBEB;
+    padding: 40px;
+    border-radius: 20px;
+}
+.card-title{
+    font-size: 50px;
+}
+.card-about{
+    font-size: 20px;
+}
+.card-btn{
+    font-size: 20px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: bold;
+    color: #0D1321;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
