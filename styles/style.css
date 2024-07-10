@@ -262,6 +262,7 @@
     justify-content: space-around;
     gap: 70px;
     padding-top: 60px;
+    margin: 10px;
 }
 .card-1{
     background-color: #EBEBEB;
@@ -294,5 +295,52 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+/* support section */
+.support{
+    background-image: url(../assets/handshake.jpg);
+    margin: 110px;
+    padding: 200px;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+}
+.support-title{
+    text-align: center;
+    color: #FFFFFF;
+}
+.support-about{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+.emty-box{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Azeret Mono", monospace;
+    margin: 50px;
+}
+.submit-btn{
+    height: 70px;
+    width: 300px;  
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Azeret Mono", monospace;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-color: gray;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 
